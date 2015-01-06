@@ -1,0 +1,101 @@
+.cf:after {
+    content: "";
+    display: table;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.cf {zoom: 1;}
+body {
+    font: 12px/1.5 Microsoft Yahei,Tohoma;
+}
+#topNav {
+    min-width: 960px;
+    border-bottom: 1px solid #CDCDCD;
+    background: #F2F2F2;
+    line-height: 28px;
+}
+.topNav {margin: 0 10px;}
+#topNav a {
+    padding: 0 4px;
+    height: 28px;
+}
+#topNav a:hover {
+    text-decoration: underline;
+}
+.top_xj {
+    text-align: center;
+    padding-top: 5px;
+}
+#header {margin: 0 15px;}
+#logo img {
+    width: 202px;
+    height: 60px;
+}
+.hd_2 {
+    height: 44px;
+    border-top: 1px solid #dddddd;
+    background: #fff;
+    border-bottom: 3px solid #dddddd;
+}
+#qmenu {
+    float: right;
+    display: inline;
+    margin: 5px 8px 0;
+    padding-right: 10px;
+    width: 103px;
+    height: 24px;
+    background: url(http://bbs.appgame.com/static/image/common/qmenu.png) no-repeat 0 0;
+    line-height: 24px;
+    text-align: center;
+    color: #369;
+    font-weight: 700;
+    overflow: hidden;
+    border-bottom: 1px solid #dce4eb;
+}
+.hd_2 li {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    background: none;
+    font-size: 18px;
+    font-weight: normal;
+}
+.hd_2 li a {
+    color: #000000;
+    height: 46px;
+    padding: 0 15px;
+}
+.hd_2 li:hover, .hd_2 .select {
+    background: #888;
+    font-weight: bold;
+}
+#content {
+    margin: 0 15px;
+}
+.ct_1 {
+    margin: 2px 0;
+    border: none;
+    background: transparent;
+    line-height: 29px;
+}
+.home {
+    background: url(http://bbs.appgame.com/static/image/common/search.png) no-repeat 0 0;
+    overflow: hidden;
+}
+.ct1_top a, .ct1_top em {
+    float: left;
+    height: 29px;
+    width: 25px;
+    text-align: center;
+}
+.ct1_warpper {
+    border: 1px solid #dce4eb;
+}
+.ct1_pic li {
+    float: left;
+    padding: 10px;
+}
+.ct1_sider, .ct2_sider {
+    width: 300px;
+}
